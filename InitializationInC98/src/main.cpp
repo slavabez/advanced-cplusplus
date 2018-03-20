@@ -24,7 +24,7 @@ int main() {
 
 	C c1 = { "Hello", 7 };
 
-	cout << c1.text << endl;
+	cout << c1.id << endl;
 
 	struct S {
 		string text;

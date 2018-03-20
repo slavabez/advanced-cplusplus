@@ -19,9 +19,8 @@ int get()
 	return 999;
 }
 
-auto test2() -> decltype(get())
-{
-	return get();
+auto test2() -> decltype(get()) {
+  return get();
 }
 
 int main() {

@@ -21,7 +21,7 @@ int main() {
 	int numbers[] { 1, 2, 4 };
 	cout << numbers[1] << endl;
 
-	int *pInts = new int[3] { 1, 2, 3 };
+	auto *pInts = new int[3] { 1, 2, 3 };
 	cout << pInts[1] << endl;
 	delete[] pInts;
 
@@ -44,6 +44,9 @@ int main() {
 
 	vector<string> strings{"one", "two", "three"};
 	cout << strings[2] << endl;
+
+	int *pointer { };
+	cout << pSomething << endl;
 
 	return 0;
 }

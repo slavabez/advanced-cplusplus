@@ -13,7 +13,7 @@ class ring
 public:
 	class iterator;
 
-	ring(int size) : _cur_index(0) {
+	explicit ring(int size) : _cur_index(0) {
 		_data.reserve(size);
 		for(auto i = 0; i < size; i++)
 		{
